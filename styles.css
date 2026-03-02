@@ -411,10 +411,16 @@ nav ul li a:hover{
     border: 2px solid black;
     border-radius: 35px;
     width: 29%;
+    transition: 1.2s ;
+    background-color: rgb(249, 245, 252);
+    box-shadow: 0px 3px  rgba(0, 0, 0, 1);
+
 }
 
 .group_of_card img {
-    width: 30%;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 10px;
     
 }
 
@@ -422,6 +428,15 @@ nav ul li a:hover{
     display: inline-block;
     font-size: 18px;
     padding: 20px;
+    position: relative;
+}
+
+.linkedin {
+    position: absolute;
+    top: 5px;
+    right: 1px;
+    font-size: 30px;
+    color: black;
 }
 
 .group_of_card_para {
@@ -430,5 +445,135 @@ nav ul li a:hover{
     line-height: 100%;
 }
 
+
+.testimonial_block {
+   margin: auto;
+  background: #11131f;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 20px;
+  padding: 60px 40px;
+  color: white;
+}
+
+.testimonial_cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.testimonial_card {
+  border: 1px solid #9cff00;
+  border-radius: 20px;
+  padding: 25px;
+  width: 30%;
+  position: relative;
+  opacity: 0.4;
+}
+
+.testimonial_card.active {
+  opacity: 1;
+}
+
+.testimonial_card p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.arrow_down {
+  width: 20px;
+  height: 20px;
+  background: #11131f;
+  border-left: 1px solid #9cff00;
+  border-bottom: 1px solid #9cff00;
+  transform: rotate(-45deg);
+  position: absolute;
+  bottom: -10px;
+  left: 40px;
+}
+
+.testimonial_card h3 {
+  margin-top: 30px;
+  color: #9cff00;
+  font-size: 16px;
+}
+
+.testimonial_card p {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.controls {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.arrow {
+  font-size: 20px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.dots {
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #666;
+  border-radius: 50%;
+}
+
+.dot.active {
+  background: #9cff00;
+}
+
+.contact_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    border-radius: 45px;
+    margin: auto;
+    background-color: rgb(249, 245, 252);
+    padding: 70px 60px;
+    gap: 60px   ;
+}
+
+.radio_options {
+    display: flex;
+    gap: 40px;
+}
+
+input[type="radio"] {
+    font-size: 18px;
+    accent-color: rgb(122, 200, 44);
+}
+
+.form_field{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.form_field label { font-weight: 500; }
+
+.form_field input, 
+.form_field textarea {
+    width: 600px;
+    padding: 18px 30px;
+    border: 1px solid #000;
+    border-radius: 14px;
+    font-size: 16px;
+    /* outline: none; */
+    background: white;
+}
 
 
