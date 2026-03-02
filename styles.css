@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  /* overflow-x: hidden; */
 }
 
 nav {
@@ -553,13 +554,24 @@ input[type="radio"] {
 
 .form_field input,
 .form_field textarea {
-  width: 600px;
+  width: 500px;
   padding: 18px 30px;
   border: 1px solid #000;
   border-radius: 14px;
   font-size: 16px;
   /* outline: none; */
   background: white;
+}
+
+.block_illustration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_illustration img {
+    /* margin-right: -128px; */
+    width: 70%;
 }
 
 
