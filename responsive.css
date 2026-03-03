@@ -1,0 +1,149 @@
+@media (max-width: 992px) {
+  nav ul {
+    gap: 20px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero_image img {
+    width: 80%;
+    margin-top: 30px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .group_of_card {
+    width: 45%;
+  }
+
+  .testimonial_cards {
+    flex-direction: column;
+  }
+
+  .testimonial_card {
+    width: 100%;
+  }
+
+  .contact_block {
+    flex-direction: column;
+  }
+
+  .form_field input,
+  .form_field textarea {
+    width: 100%;
+  }
+
+  .block_illustration img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .logo_s {
+    flex-wrap: wrap;
+  }
+
+  .services {
+    padding: 30px;
+  }
+
+  .group_of_card {
+    width: 100%;
+  }
+
+  .cta_block {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .cta_block .cta_img img {
+    width: 85%;
+  }
+
+  .services_message .services_heading {
+    font-size: 30px;
+    align-self: center;
+  }
+
+  .case_studies_block .case_studies_2 {
+    border: none;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 30px;
+  }
+
+  .case_studies_block {
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .footer_navbar ul {
+    display: none;
+  }
+
+  .footer_frame {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .content_heading {
+    font-size: 35px;
+  }
+
+  .services .card .img img {
+    width: 60%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .content_para {
+    font-size: 16px;
+  }
+
+  .services_heading {
+    font-size: 28px;
+  }
+
+  .services_para {
+    font-size: 14px;
+  }
+
+  .process_block .process_block_card h2 {
+    font-size: 20px;
+  }
+
+  .process_block_span {
+    font-size: 35px;
+  }
+
+  .subscription_block {
+    flex-direction: column;
+  }
+
+  .subscription_block input {
+    width: 100%;
+  }
+
+  .privacy {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
